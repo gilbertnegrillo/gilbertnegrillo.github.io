@@ -18,7 +18,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/bg.jpg") top right no-repeat;
+  background: #040404 url("../img/bg-1920-min.jpg") top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
@@ -688,9 +688,7 @@ section .container {
   transition: all 0.3s ease-in-out;
   border-radius: 4px;
 }
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  background: #18d26e;
-}
+
 .portfolio #portfolio-flters li:last-child {
   margin-right: 0;
 }
